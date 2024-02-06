@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -9,8 +9,8 @@ namespace Kasper
 {
     class Program
     {
-        static public int maxWidth = 40;
-        static public int maxHeight = 20;
+        static public int maxWidth = 20;
+        static public int maxHeight = 10;
 
         public double X = maxWidth / 2;
         public double Y = maxHeight / 2;
@@ -238,14 +238,14 @@ namespace Kasper
                     }
                 }
 
-                if(i == maxHeight / 2)
+                if(i == maxHeight - 1)
                 {
-                    Console.Write($"    Заряд: [{this.progresBar}%] Уничтоженно призраков: [{this.numberCilEnum}]");
+                    Console.Write($"\n\nУничтоженно призраков: [{this.numberCilEnum}]");
                 }
 
                 Console.WriteLine("");
             }
-            Thread.Sleep(10);
+            Thread.Sleep(60);
         }
 
         static void Main(string[] args)
