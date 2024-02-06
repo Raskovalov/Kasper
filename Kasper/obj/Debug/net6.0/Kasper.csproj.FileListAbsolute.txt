@@ -1,0 +1,14 @@
+E:\Work\project\MainProject\C#\Kasper\Kasper\bin\Debug\net6.0\Kasper.exe
+E:\Work\project\MainProject\C#\Kasper\Kasper\bin\Debug\net6.0\Kasper.deps.json
+E:\Work\project\MainProject\C#\Kasper\Kasper\bin\Debug\net6.0\Kasper.runtimeconfig.json
+E:\Work\project\MainProject\C#\Kasper\Kasper\bin\Debug\net6.0\Kasper.dll
+E:\Work\project\MainProject\C#\Kasper\Kasper\bin\Debug\net6.0\Kasper.pdb
+E:\Work\project\MainProject\C#\Kasper\Kasper\obj\Debug\net6.0\Kasper.GeneratedMSBuildEditorConfig.editorconfig
+E:\Work\project\MainProject\C#\Kasper\Kasper\obj\Debug\net6.0\Kasper.AssemblyInfoInputs.cache
+E:\Work\project\MainProject\C#\Kasper\Kasper\obj\Debug\net6.0\Kasper.AssemblyInfo.cs
+E:\Work\project\MainProject\C#\Kasper\Kasper\obj\Debug\net6.0\Kasper.csproj.CoreCompileInputs.cache
+E:\Work\project\MainProject\C#\Kasper\Kasper\obj\Debug\net6.0\Kasper.dll
+E:\Work\project\MainProject\C#\Kasper\Kasper\obj\Debug\net6.0\refint\Kasper.dll
+E:\Work\project\MainProject\C#\Kasper\Kasper\obj\Debug\net6.0\Kasper.pdb
+E:\Work\project\MainProject\C#\Kasper\Kasper\obj\Debug\net6.0\Kasper.genruntimeconfig.cache
+E:\Work\project\MainProject\C#\Kasper\Kasper\obj\Debug\net6.0\ref\Kasper.dll
