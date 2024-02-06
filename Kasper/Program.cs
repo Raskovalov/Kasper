@@ -240,7 +240,7 @@ namespace Kasper
 
                 if(i == maxHeight / 2)
                 {
-                    Console.Write($"    Заряд: [{this.progresBar}%] Уничтоженно ракет: [{this.numberCilEnum} шт.]");
+                    Console.Write($"    Заряд: [{this.progresBar}%] Уничтоженно призраков: [{this.numberCilEnum}]");
                 }
 
                 Console.WriteLine("");
