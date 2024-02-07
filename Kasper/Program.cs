@@ -197,6 +197,11 @@ namespace Kasper
                             Console.WriteLine("Проиграли!!");
                             Console.ResetColor();
                             Console.ReadLine();
+
+                            this.X = maxWidth / 2;
+                            this.Y = maxHeight / 2;
+                            this.numberCilEnum = 0;
+                            this.XNYN.Remove(this.XNYN[num]);
                         }
                     }
                 }
