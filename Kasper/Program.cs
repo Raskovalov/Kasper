@@ -49,49 +49,12 @@ namespace Kasper
         {
             if(progresBar == 100)
             {
-                List<double> l = new List<double>();
-                l.Add(this.X);
-                l.Add(this.Y);
-                this.XNYNPatron.Add(l);
-            }
-        }
-
-        public void MovePatron()
-        {
-            if (this.timeEventsN > 1)
-            {
-                for (int num = 0; num < this.XNYNPatron.Count; num++)
+                if(this.XNYNPatron.Count < 2)
                 {
-                    bool ev = false;
-                    List<double> n = new List<double>();
-
-                    this.XN = this.XNYNPatron[num][0];
-                    this.YN = this.XNYNPatron[num][1];
-
-                    if (this.X < this.XN)
-                    {
-                        this.XN += speedStartN;
-                    }
-                    else if (this.X > this.XN)
-                    {
-                        this.XN -= speedStartN;
-                    }
-
-                    if (this.Y < this.YN)
-                    {
-                        this.YN += speedStartN;
-                    }
-                    else if (this.Y > this.YN)
-                    {
-                        this.YN -= speedStartN;
-                    }
-
-                    if (ev == false)
-                    {
-                        n.Add(this.XN);
-                        n.Add(this.YN);
-                        this.XNYNPatron[num] = n;
-                    }
+                    List<double> l = new List<double>();
+                    l.Add(this.X);
+                    l.Add(this.Y);
+                    this.XNYNPatron.Add(l);
                 }
             }
         }
@@ -176,19 +139,19 @@ namespace Kasper
             {
                 var key = Console.ReadKey(false).Key;
 
-                if (key == ConsoleKey.UpArrow)
+                if (key == ConsoleKey.UpArrow || key == ConsoleKey.W)
                 {
                     this.Y -= speedStart;
                 }
-                else if (key == ConsoleKey.DownArrow)
+                else if (key == ConsoleKey.DownArrow || key == ConsoleKey.S)
                 {
                     this.Y += speedStart;
                 }
-                else if (key == ConsoleKey.LeftArrow)
+                else if (key == ConsoleKey.LeftArrow || key == ConsoleKey.A)
                 {
                     this.X -= speedStart;
                 }
-                else if (key == ConsoleKey.RightArrow)
+                else if (key == ConsoleKey.RightArrow || key == ConsoleKey.D)
                 {
                     this.X += speedStart;
                 }
@@ -254,6 +217,8 @@ namespace Kasper
 
             while (true)
             {
+                pr.ProgresBarStart();
+                pr.SpaunPatron();
                 pr.MoveEnum();
                 pr.Input();
                 pr.PrintPole();
